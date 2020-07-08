@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ids, class, divs and span</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance {
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header">
+        <h1>My Website</h1>
+        <p>A site about me</p>
+    </div>
+    <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+        <h3>About</h3>
+        <!-- Div is block level where as span is not, eg is below -->
+        <p>Lorem ipsum dolor sit amet <div class="enhance">consectetur, adipisicing elit. Est voluptates </div> quod omnis, Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum accusantium mollitia, ea amet voluptas suscipit dolores earum delectus sed.<span class="enhance">Lorem, ipsum dolor.</span>provident autem et aspernatur quaerat consequatur. Quas quis alias nulla dolorum exercitationem cumque, veniam maxime mollitia totam sit.</p>
+    </div>
+
+    <div id="contact" class="card">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Address: 5b2 Abad, Kochi</li>
+            <li>Phone: (902) 902 902</li>
+            <li>Email: me@reallygreat.com</li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <!-- &copy is the copyright symbol-->
+        <p>Copyright &copy2019</p>
+    </div>
+    
+</body>
+</html>
