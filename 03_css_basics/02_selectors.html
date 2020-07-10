@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+
+        /* Internal CSS: Basic note on selectors
+         * "." is for class selector, "#"" is for id selector 
+         * The usage <tag>#<id-name> will apply to all tags
+         * with <tag> and <id-name>. The usage <tag>.<classname>
+         * will apply to all tags with <tag> and <classname> 
+         */
+
+         /* Element selectors   */
+         body {
+             background-color: #333;
+         }
+
+         /* # is for IDs        */
+         #welcome  {
+             background-color: #f4f4f4;
+         }
+        
+         /* Applies to all h2 having id="primary-heading" */
+         h2#primary-heading {
+             color: green;
+         }
+
+         /* . is for Classes    */
+         .secondary-heading {
+             color: lightcyan;
+         }
+
+         /* Multiple selectors; seperated by ","
+          * Remember these are cascading style sheets. The ID #welcome
+          * is defined again so it will follow the cascading rule
+          */
+         #welcome, #about { 
+             border: 1px solid #ccc;
+             padding: 10px;
+             margin: 5px;
+         }
+
+         /* Nested selctors; note the absence of ","
+          * This means apply only to paragraphs with ID #welcome.
+          */
+         #welcome p {
+             font-size: 20px;
+         }
+
+         #about {
+             color: white;
+         }
+
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 id="primary-heading">Welcome</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod eum, reprehenderit dolore at quasi exercitationem! Quos nisi voluptatum sapiente illo.
+        </p>
+    </div>
+    <div id="about">
+        <h2 class="secondary-heading">About</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae atque aut in impedit sit quia inventore sed quos deserunt reiciendis.</p>
+    </div>
+
+    
+</body>
+</html>
