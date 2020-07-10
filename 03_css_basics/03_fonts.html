@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing fonts through google font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+
+    <title>CSS Fonts</title>
+    <style>
+        body {
+            /* font-family: Arial, Helvetica, sans-serif; */
+            /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+            /* font-family: 'Times New Roman', Times, serif; */
+
+            /* When using google font copy the line from their site */
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            line-height: 1.6em;
+        }
+
+        /* Target the _span_ inside _p_ inside _#welcome_ */
+        #welcome p span {
+            font-weight: bold;
+        }
+
+        #about p span {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <h2 id="primary-heading">Welcome</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur elit. <span>Quod eum, reprehenderit dolore at quasi exercitationem! </span>Quos nisi voluptatum sapiente illo.
+        </p>
+    </div>
+    <div id="about">
+        <h2 class="secondary-heading">About</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae atque aut in impedit sit <span> quia inventore sed quos deserunt</span> reiciendis.</p>
+    </div>
+    
+</body>
+</html>
