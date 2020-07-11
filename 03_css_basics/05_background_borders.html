@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background and Border</title>
+
+    <style>
+        #box-1 {
+            background-color: blanchedalmond;
+            /* border-width: 3px;
+            border-color: red;
+            border-style: solid; */
+            border: 3px red solid; /* border properties in one line*/
+            border-radius: 10px;
+        }
+
+        #box-2 {
+            background: #333; /* a dar sharde better than black */
+            color: #fff; /* 3 letter hex code for white */
+            border-top: cornflowerblue 3px solid; /* order doesn't matter */
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px; /* specific border rouding selection */
+        }
+
+        #box-3 {
+            color: #fff;
+            height: 300px;
+            width: 600px;
+            /* background-image: url('./img/stars.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover; */
+
+            /* one liner for the above */
+            background: url('./img/stars.jpg') no-repeat center center/cover;
+        }
+        #box-4 {
+            background: url('./img/leaf.png') no-repeat center center;
+            /* for fixing an image use background-attachement */
+            background-attachment: fixed;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box-1">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+    </div>
+    <br>
+    <div id="box-2">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+    </div>
+    <div id="box-3">
+        <h3>Box Three</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+    </div>
+    <div id="box-4">
+        <h3>Box Four</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio soluta culpa nobis doloremque veritatis laboriosam sit voluptate. Repellendus, beatae?</p>
+    </div>
+    
+    
+    
+</body>
+</html>
