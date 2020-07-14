@@ -15,6 +15,11 @@ let age = 100;
 * [x] Install Tooling
 * [ ] Learn Markdown!
 
+## Some lessons
+
+* Use _**_ before and after words **marks text in bold**
+* Use *_* before and after _marks text in italic_
+
 ## The Best Pups Around
 
 
