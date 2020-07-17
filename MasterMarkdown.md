@@ -17,8 +17,16 @@ let age = 100;
 
 ## Some lessons
 
-* Use _**_ before and after words **marks text in bold**
+* Use # for heading and the number of #s for ordering
+* Use _**_ before and after **marks text in bold**
 * Use *_* before and after _marks text in italic_
+* Use _~~_ before and after ~~marks to strike through text~~
+
+This is a link <http://duckduckgo.com>
+
+[My Github](https://github.com/elvenlords)
+
+
 
 ## The Best Pups Around
 
