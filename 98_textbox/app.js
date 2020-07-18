@@ -7,8 +7,8 @@ document.getElementById("textarea").value = "";
 function keyPressA(e)
 {
     e.preventDefault();
-    // currentText = document.getElementById("textarea").value;
-    document.getElementById("textarea").value = document.getElementById("textarea").value + 'A';
+    currentText = document.getElementById("textarea").value;
+    document.getElementById("textarea").value = currentText + 'A';
 
     console.log("pressed A")
 }
